@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+button {
+  @apply px-4 py-2 rounded-md cursor-pointer pointer-events-auto text-center;
+}
+button:disabled {
+  @apply cursor-auto pointer-events-none;
+}
+
+.flex-items-center {
+  @apply flex flex-col items-center justify-center h-screen w-screen;
+}
