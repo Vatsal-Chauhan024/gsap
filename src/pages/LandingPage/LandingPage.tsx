@@ -26,6 +26,14 @@ const LandingPage = () => {
             {
                 title: English.E9,
                 link: 'gsap-stagger'
+            },
+            {
+                title: English.E10,
+                link: 'gsap-scroll-stagger'
+            },
+            {
+                title: English.E12,
+                link: 'gsap-text'
             }
         ]
     }, [])

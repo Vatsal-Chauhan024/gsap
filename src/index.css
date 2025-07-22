@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+* {
+  overflow-x: hidden;
+}
+
 button {
   @apply px-4 py-2 rounded-md cursor-pointer pointer-events-auto text-center;
 }
