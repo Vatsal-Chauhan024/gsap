@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { LandingPage, GsapTo, GsapFrom, GsapFromTo, GsapTimeLine, GsapStagger, GsapScrollTrigger, GsapText } from "@pages"
 import { Layout } from "@layouts"
+import GsapScrollImage from "./pages/GsapScrollImage/GsapScrollImage"
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/gsap-stagger" element={<GsapStagger />} />
           <Route path="/gsap-scroll-stagger" element={<GsapScrollTrigger />} />
           <Route path="/gsap-text" element={<GsapText />} />
+          <Route path="/gsap-image-scroll-animation" element={<GsapScrollImage />} />
         </Route>
       </Routes>
     </BrowserRouter>

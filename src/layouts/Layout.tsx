@@ -8,10 +8,10 @@ const Layout = () => {
   const navigate = useNavigate()
 
   return (
-    <div className="flex flex-col gap-8">
-      <CommonButton text={English.E4} onClick={() => {
+    <div className="flex flex-col gap-8 h-screen overflow-y-auto scroll_container" >
+      <CommonButton  text={English.E4} onClick={() => {
         navigate(-1)
-      }} />
+      }} className="sticky top-0 z-50 bg-slate-400 text-white" />
       <Outlet />
     </div>
   )

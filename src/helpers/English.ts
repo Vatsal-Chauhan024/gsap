@@ -11,6 +11,7 @@ const English = {
   E10: "Go To GSAP Scroll Trigger",
   E11: "Sample Text",
   E12: "Go To GSAP Text",
+  E13: "Go To GSAP Image Scroll Animation",
 };
 
 export default English;

@@ -6,11 +6,10 @@
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
-    "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"],
-      "@pages": ["src/pages"],
-      "@helpers": ["src/helpers"],
+      "@/*": ["./src/*"],
+      "@pages": ["./src/pages"],
+      "@helpers": ["./src/helpers"],
       "@components": ["./src/components"],
       "@layouts": ["./src/layouts"]
     },

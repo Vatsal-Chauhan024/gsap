@@ -9,7 +9,7 @@ const GsapStagger = () => {
             yoyo: true,
             repeat: -1,
             duration: 1,
-            stagger: {
+            stagger:{
                 amount: 1.5,
                 axis: 'y',
                 grid: [3, 1],
