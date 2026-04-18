@@ -1,10 +1,36 @@
 @import "tailwindcss";
 
-* {
-  box-sizing: border-box;
+:root {
+  --bg: #0f0f0f;
+  --fg: #fff;
+  --card1: #f2f2f2;
+  --card2: #ce2017;
+  --card3: #2f2f2f;
 }
-body {
-  overflow: hidden;
+
+@theme {
+  --color-bg: var(--bg);
+  --color-fg: var(--fg);
+  --color-card1: var(--card1);
+  --color-card2: var(--card2);
+  --color-card3: var(--card3);
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
 }
 
 button {

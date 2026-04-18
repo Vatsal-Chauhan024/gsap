@@ -38,7 +38,32 @@ const LandingPage = () => {
             {
                 title: English.E13,
                 link: 'gsap-image-scroll-animation'
+            },
+            {
+                title: English.E14,
+                link: 'mouse-trail'
+            },
+            {
+                title: English.E15,
+                link: 'scroll-reveal'
+            },
+            {
+                title: English.E16,
+                link: 'pin-stack'
+            },
+            {
+                title: English.E17,
+                link: 'text_animation_2'
+            },
+            {
+                title: English.E18,
+                link: 'text_animations'
+            },
+            {
+                title: English.E19,
+                link: 'particles_animation'
             }
+
         ]
     }, [])
 

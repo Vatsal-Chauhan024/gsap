@@ -12,6 +12,13 @@ const English = {
   E11: "Sample Text",
   E12: "Go To GSAP Text",
   E13: "Go To GSAP Image Scroll Animation",
+  E14: 'Go To Mouse Trail Animation',
+  E15: 'Scroll Reveal Animation',
+  E16: 'PinStack Animation',
+  E17: 'Text Animation 2',
+  E18: 'Text Animation 3',
+  E19: 'Particle Animation',
+  E20: 'Card Animations'
 };
 
 export default English;
