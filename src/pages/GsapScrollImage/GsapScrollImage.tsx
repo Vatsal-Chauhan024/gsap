@@ -14,6 +14,7 @@ const GsapScrollImage = () => {
 
     useGSAP(() => {
         const elements: HTMLElement[] = gsap.utils.toArray('.slider .image')
+        console.log('elements', elements);
         elements.forEach((element) => {
             gsap.fromTo(element, {
                 clipPath: 'inset(0% 100% 0% 0%)'

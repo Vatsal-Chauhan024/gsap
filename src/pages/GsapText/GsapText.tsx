@@ -9,7 +9,6 @@ const GsapText = () => {
         const splitText = SplitText.create('#text', {
             type: 'chars'
         })
-        console.log(splitText)
         splitText.chars.forEach((character, index) => {
             gsap.fromTo(character, {
                 x: index === 0 ? '-100vw' : index === splitText.chars.length - 1 ? '100vw' : 0,

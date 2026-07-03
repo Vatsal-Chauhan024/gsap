@@ -7,6 +7,13 @@ import ScrollReveal from "./pages/ScrollReveal/ScrollReveal"
 import PinStack from "./pages/PinStack/PinStack"
 import TextAnimation2 from "./pages/TextAnimation2/TextAnimation2"
 import TextAnimation3 from "./pages/TextAnimation/TextAnimation3"
+import CardAnimartions from "./pages/Card Animations/CardAnimartions"
+import ScrollerAnimation from "./pages/ScrollerAnimation/ScrollerAnimation"
+import ThreeDAnimation from "./pages/ThreeDAnimation/ThreeDAnimation"
+import PageOne from "./pages/MultiplePageAnimation/PageOne"
+import PageTwo from "./pages/MultiplePageAnimation/PageTwo"
+import PageThree from "./pages/MultiplePageAnimation/PageThree"
+import SpecificLayout from "./pages/MultiplePageAnimation/SpecificLayout"
 
 const App = () => {
   return (
@@ -27,7 +34,21 @@ const App = () => {
           <Route path="/text_animation_2" element={<TextAnimation2 />} />
         </Route>
         <Route path="/pin-stack" element={<PinStack />} />
+        <Route path="/card_animations" element={<CardAnimartions />} />
         <Route path="/text_animations" element={<TextAnimation3 />} />
+        <Route path="/scroller_animation" element={<ScrollerAnimation />} />
+        <Route path="/3d_animation" element={<ThreeDAnimation />} />
+        <Route path="/page-one" element={
+          <SpecificLayout>
+            <PageOne />
+          </SpecificLayout>} />
+        <Route path="/page-two" element={<SpecificLayout>
+          <PageTwo />
+        </SpecificLayout>} />
+        <Route path="/page-three" element={<SpecificLayout>
+          <PageThree />
+        </SpecificLayout>} />
+
       </Routes>
     </BrowserRouter>
   )

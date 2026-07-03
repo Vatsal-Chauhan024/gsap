@@ -62,8 +62,31 @@ const LandingPage = () => {
             {
                 title: English.E19,
                 link: 'particles_animation'
-            }
-
+            },
+            {
+                title: English.E20,
+                link: 'card_animations'
+            },
+            {
+                title: English.E21,
+                link: 'scroller_animation'
+            },
+            {
+                title: English.E22,
+                link: '3d_animation'
+            },
+            {
+                title: 'Transition Grid Page One',
+                link: 'page-one'
+            },
+              {
+                title: 'Transition Grid Page Two',
+                link: 'page-two'
+            }, 
+             {
+                title: 'Transition Grid Page Three',
+                link: 'page-three'
+            },
         ]
     }, [])
 

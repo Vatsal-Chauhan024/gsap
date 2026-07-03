@@ -18,7 +18,9 @@ const English = {
   E17: 'Text Animation 2',
   E18: 'Text Animation 3',
   E19: 'Particle Animation',
-  E20: 'Card Animations'
+  E20: 'Card Animations',
+  E21: 'Horizontal Scroller',
+  E22: '3D Animation'
 };
 
 export default English;

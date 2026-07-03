@@ -43,3 +43,57 @@ button:disabled {
 .flex-items-center {
   @apply flex flex-col items-center justify-center h-screen w-screen;
 }
+.hero {
+  @apply relative text-[#f2f0e6] w-full h-screen flex items-center justify-center overflow-hidden
+}
+
+.transition__grid{
+  @apply fixed top-0 left-0 w-full h-full pointer-events-none z-50 overflow-hidden
+}
+
+.transition__block{
+  @apply absolute bg-[#f2f0e6] will-change-transform
+}
+
+.hero h1{
+  @apply text-xl lg:text-6xl font-semibold tracking-wide leading-normal
+}
+
+.hero.genesis{
+  background: url(./assets/one.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.hero.cascade{
+  background: url(./assets/two.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.hero.orbit{
+  background: url(./assets/three.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.scaleableImg{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+}
+#scaleableImg1{
+  top: 10%;
+  left: 9%;
+}
+#scaleableImg2{
+  top: 60%;
+  left: 10%;
+}
+#scaleableImg3{
+  top: 60%;
+  left: 60%;
+}
+#scaleableImg4{
+  top: 10%;
+  left: 60%;
+}
+
+
